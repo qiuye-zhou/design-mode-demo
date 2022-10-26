@@ -1,3 +1,5 @@
+//abstract 声明一个抽象类，抽象类中的方法也必须是抽象方法，要用abstract声明，
+//且抽象类不能被直接实例化，只能被子类继承，并且需要重新实现抽象类中的抽象方法
 abstract class user  {
     public abstract show(): void
     public abstract work(): void
