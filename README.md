@@ -11,6 +11,7 @@
 ##### 完成列表
 - 单例模式Singleton Pattern(创建型)
 - 工厂模式Factory Pattern(创建型)
+- 策略模式Strategy Pattern(行为型模式)
 
 
 
