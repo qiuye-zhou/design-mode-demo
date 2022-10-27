@@ -14,6 +14,7 @@
 - 策略模式Strategy Pattern(行为型)
 - 代理模式Proxy Pattern(结构型)
 - 观察者模式Observer Mode(行为型)
+- 发布订阅模式Publish Subscription Mode(行为型)
 
 
 
