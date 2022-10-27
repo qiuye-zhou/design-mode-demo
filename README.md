@@ -13,6 +13,7 @@
 - 工厂模式Factory Pattern(创建型)
 - 策略模式Strategy Pattern(行为型)
 - 代理模式Proxy Pattern(结构型)
+- 观察者模式Observer Mode(行为型)
 
 
 
