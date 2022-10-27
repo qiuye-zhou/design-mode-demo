@@ -1,5 +1,17 @@
+// 简单实现
+interface SubjectInterface {
+    addObserver (observer: Observer): void
+    removeObserver (observer: Observer): void
+    notifyObserver (message: string): void
+}
+
+interface Observerinterface {
+    name: string
+    notified (message: string): void
+}
+
 // 被观察者模式
-class Subject {
+class Subject implements SubjectInterface {
     private observerList: Observer[];
 
     constructor () {
@@ -27,7 +39,7 @@ class Subject {
 }
 
 // 观察者
-class Observer {
+class Observer implements Observerinterface {
     public name: string;
 
     constructor (name: string, subject?: Subject) {
